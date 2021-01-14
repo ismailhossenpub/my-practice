@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    height: 48px;
+    padding: 2px 10px;
+}
+h1{
+    text-transform: uppercase;
+}
+
+.fashion-card img{
+    /* height: 314px; */
+    /* width: 335px; */
+    /* padding: 45px; */
+    /* height: 50%; */
+    /* width: 50%; */
+    border-radius: 5px;
+    background-color: silver;
+    padding:5px;
+}
+.fashion-card-footer{
+    background-color: white !important;
+    border: 0 !important;
+    display: flex;
+}
+
+.fashion-card-footer button{
+    margin-left: 0;
+}
