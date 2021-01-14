@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
 }
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
 .logo{
     height: 48px;
     padding: 2px 10px;
@@ -9,16 +17,32 @@
 h1{
     text-transform: uppercase;
 }
+.btnstyle{
+    background: #A4BC46;
+    background-color: #A4BC46;
+    border: #A4BC46;
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: 0;
+}
+.fashion-card{
+    padding: 20px;
+}
+
+.fashion-card-img{
+    height: 380px;
+    padding: 10px;
+}
 
 .fashion-card img{
-    /* height: 314px; */
-    /* width: 335px; */
-    /* padding: 45px; */
-    /* height: 50%; */
-    /* width: 50%; */
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
     border-radius: 5px;
     background-color: silver;
-    padding:5px;
+    padding: 5px;
 }
 .fashion-card-footer{
     background-color: white !important;
@@ -26,6 +50,12 @@ h1{
     display: flex;
 }
 
-.fashion-card-footer button{
-    margin-left: 0;
+.feature .card{
+    padding: 20px;
+    border: 0;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.05);
+}
+.feature .card img{
+    width: 80px;
 }
